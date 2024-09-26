@@ -1,0 +1,140 @@
+h1{
+    background: rgba(82, 25, 3, 0.61);
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: rgb(255, 230, 118);
+    position: absolute;
+    top: 5px;
+    text-align: center;
+}
+
+
+body{
+    background: radial-gradient(circle, rgba(17, 102, 0, 0.795) 0%, rgb(255, 230, 118) 100%);
+}
+
+img{
+    width: 100%;
+}
+
+.head{
+    position: relative;
+    width: 100%;
+}
+
+ul{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.button{
+    background: rgb(49, 14, 0);
+    width: 15%;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+a{
+    color: #ffc53d;
+    text-decoration: none;
+    font-size: 20px;
+}
+.bottom{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+.name{
+    color: rgb(49, 14, 0);
+    font-family: cursive;
+    font-size: 10px;
+    position: absolute;
+    top: 50px;
+    
+}
+body{
+    height: 100vh;
+}
+.prjct{
+    background: rgba(255, 230, 118, 0.384); 
+    
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(49, 14, 0);
+}
+
+.imgprjt{
+    width: 100%;
+}
+
+.project{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.size{
+    width: 33%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 20px;
+}
+
+.prgrph{
+    text-align: start;
+    text-decoration: none;
+    color: rgba(82, 25, 3, 0.61);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px ;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#std{
+    background: rgb(255, 230, 118);
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(49, 14, 0);
+}
+
+#artcl{
+    background: rgb(255, 230, 118);
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(49, 14, 0);
+
+}
+
+#cntct{
+    background: rgb(255, 230, 118);
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(49, 14, 0);
+
+}
+
+.more{
+    border: 2px solid rgb(49, 14, 0);
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: right;
+    
+    
+}
