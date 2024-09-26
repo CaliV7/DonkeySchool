@@ -84,16 +84,11 @@ h3{
     margin: 20px;
     display: flex;
     justify-content: center;
-    
-
-
+    height: 100%;
 }
 
 .size{
     width: 33%;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
     margin: 20px;
 }
 
@@ -103,8 +98,11 @@ h3{
     color: rgba(82, 25, 3, 0.61);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 10px ;
-    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
     overflow: hidden;
+   
 }
 
 #std{
@@ -131,10 +129,18 @@ h3{
 }
 
 .more{
-    border: 2px solid rgb(49, 14, 0);
+    border: 2px solid rgb(255, 230, 118);
+    background: rgb(82, 25, 3);
     font-size: 15px;
+    color: #fdd169;
     border-radius: 5px;
-    text-align: right;
-    
-    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 50%;   
+}
+
+.plus{
+    display: flex;
+    justify-content: flex-end;
 }
