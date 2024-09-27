@@ -65,19 +65,19 @@ a{
 body{
     height: 100vh;
 }
-.prjct{
-    background: rgba(255, 230, 118, 0.384); 
-    
-}
 
 h3{
+    text-align: center;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 40px;
     color: rgb(49, 14, 0);
+    border: 2px solid rgb(49, 14, 0);
 }
 
 .imgprjt{
     width: 100%;
+    border: 2px solid rgb(82, 25, 3);
+    border-radius: 15%;
 }
 
 .project{
@@ -92,6 +92,12 @@ h3{
     margin: 20px;
 }
 
+h4{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+    margin: 2px;
+}
 .prgrph{
     text-align: start;
     text-decoration: none;
@@ -103,29 +109,6 @@ h3{
     -webkit-line-clamp: 3;
     overflow: hidden;
    
-}
-
-#std{
-    background: rgb(255, 230, 118);
-    text-decoration: underline;
-    font-size: 20px;
-    color: rgb(49, 14, 0);
-}
-
-#artcl{
-    background: rgb(255, 230, 118);
-    text-decoration: underline;
-    font-size: 20px;
-    color: rgb(49, 14, 0);
-
-}
-
-#cntct{
-    background: rgb(255, 230, 118);
-    text-decoration: underline;
-    font-size: 20px;
-    color: rgb(49, 14, 0);
-
 }
 
 .more{
@@ -143,4 +126,111 @@ h3{
 .plus{
     display: flex;
     justify-content: flex-end;
+}
+
+.std{
+    background: rgb(255, 230, 118);
+    font-size: 20px;
+    color: rgb(49, 14, 0);
+}
+
+.etudes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.studypic{
+    position: relative;
+    width: 75%;
+    border-radius: 50%;
+}
+.pic{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.presentation{
+    margin: 0px 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.info{
+    border: 1px solid rgb(49, 14, 0);
+    padding: 10px;
+}
+
+.exp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bacch{
+    margin: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.date{
+    color: #BDEE63;
+    background-color: rgb(82, 25, 3);
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+
+
+
+.click{
+    padding: 0px;
+    
+}
+.post{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.art1, .art2{
+    width: 50%;
+    margin: 20px;
+}
+
+.parart{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-decoration: none;
+}
+.sizart{
+    width: 90%;
+    border: #fdd169 solid 2px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.read{
+    background: rgb(82, 25, 3);
+    color: #fdd169;
+    border-radius: 10px;
+    padding: 5px 50px;
+    text-decoration: none;
+
+}
+
+
+#cntct{
+    background: rgb(255, 230, 118);
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(49, 14, 0);
 }
